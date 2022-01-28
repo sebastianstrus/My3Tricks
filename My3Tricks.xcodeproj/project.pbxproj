@@ -14,6 +14,10 @@
 		7D85820B27A0080E0035C901 /* My3Tricks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D85820927A0080E0035C901 /* My3Tricks.xcdatamodeld */; };
 		7D85820D27A008100035C901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D85820C27A008100035C901 /* Assets.xcassets */; };
 		7D85821027A008100035C901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D85820E27A008100035C901 /* LaunchScreen.storyboard */; };
+		7D85821827A00D600035C901 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85821727A00D600035C901 /* RoundButton.swift */; };
+		7D85821A27A02C2A0035C901 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85821927A02C2A0035C901 /* UIView+Extension.swift */; };
+		7DAD1DA627A4512D00E3BAF9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD1DA527A4512D00E3BAF9 /* CollectionViewController.swift */; };
+		7DAD1DA827A452F600E3BAF9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD1DA727A452F600E3BAF9 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		7D85820C27A008100035C901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D85820F27A008100035C901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D85821127A008100035C901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D85821727A00D600035C901 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		7D85821927A02C2A0035C901 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		7DAD1DA527A4512D00E3BAF9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		7DAD1DA727A452F600E3BAF9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +69,15 @@
 				7D85820027A0080E0035C901 /* AppDelegate.swift */,
 				7D85820227A0080E0035C901 /* SceneDelegate.swift */,
 				7D85820427A0080E0035C901 /* ViewController.swift */,
+				7D85821727A00D600035C901 /* RoundButton.swift */,
 				7D85820627A0080E0035C901 /* Main.storyboard */,
 				7D85820C27A008100035C901 /* Assets.xcassets */,
 				7D85820E27A008100035C901 /* LaunchScreen.storyboard */,
 				7D85821127A008100035C901 /* Info.plist */,
 				7D85820927A0080E0035C901 /* My3Tricks.xcdatamodeld */,
+				7D85821927A02C2A0035C901 /* UIView+Extension.swift */,
+				7DAD1DA527A4512D00E3BAF9 /* CollectionViewController.swift */,
+				7DAD1DA727A452F600E3BAF9 /* CollectionViewCell.swift */,
 			);
 			path = My3Tricks;
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D85821A27A02C2A0035C901 /* UIView+Extension.swift in Sources */,
 				7D85820527A0080E0035C901 /* ViewController.swift in Sources */,
+				7DAD1DA827A452F600E3BAF9 /* CollectionViewCell.swift in Sources */,
+				7D85821827A00D600035C901 /* RoundButton.swift in Sources */,
 				7D85820127A0080E0035C901 /* AppDelegate.swift in Sources */,
+				7DAD1DA627A4512D00E3BAF9 /* CollectionViewController.swift in Sources */,
 				7D85820327A0080E0035C901 /* SceneDelegate.swift in Sources */,
 				7D85820B27A0080E0035C901 /* My3Tricks.xcdatamodeld in Sources */,
 			);
