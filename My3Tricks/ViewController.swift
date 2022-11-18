@@ -63,6 +63,7 @@ class ViewController: UIViewController {
 
     @IBAction func goToNaxtController(_ sender: Any) {
         let vc = CollectionViewController.init(collectionViewLayout: UICollectionViewFlowLayout.init())
+        vc.modalPresentationStyle = .fullScreen //or .overFullScreen for transparency
         self.present(vc, animated: true, completion: nil)
 
     }
